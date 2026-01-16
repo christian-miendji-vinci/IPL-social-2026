@@ -30,6 +30,8 @@ The project includes a CI pipeline located at:
 .github/workflows/ci.yml
 
 
+
+
 ### Initialize TypeScript configuration using:
 npx tsc --init
 
@@ -38,3 +40,22 @@ in order to generate the tsconfig.json file.
 Install Express server and the required dependencies to enable TypeScript support.
 
 Improve and clean up the package.json file.
+
+### Project Description 
+Project Description
+This project is part of the DevOps course at Haute École Léonard de Vinci.
+The goal is to implement an email validation function in TypeScript, following a Test-Driven Development (TDD) approach and integrating a GitHub Actions CI pipeline.
+
+The validator checks:
+
+that the string contains exactly one @
+
+that there is text before and after the @
+
+that the domain contains at least one dot .
+
+that the dot is not the last character
+
+that the email contains no spaces
+
+and all logic is implemented manually, without using built‑in string helpers
