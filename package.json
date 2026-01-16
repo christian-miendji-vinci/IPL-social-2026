@@ -1,0 +1,23 @@
+{
+  "name": "ipl-social-2026",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christian-miendji-vinci/IPL-social-2026.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christian-miendji-vinci/IPL-social-2026/issues"
+  },
+  "homepage": "https://github.com/christian-miendji-vinci/IPL-social-2026#readme",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
